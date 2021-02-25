@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Todo List</title>
+  <link rel="stylesheet" href="font-awesome.min.css" />
+  <link rel="stylesheet" href="bootstrap.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="container">
+     <a class="navbar-brand">Todo List  <img src="todo-list-img.png" alt="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.iconfinder.com%2Ficons%2F263097%2Fchecklist_tasks_to_do_list_icon&psig=AOvVaw2ym-DqvQLNl32ge3iJCyiG&ust=1614317551256000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCKid64-ohO8CFQAAAAAdAAAAABAI" height="40px" width="50px"></a>
+          <form class="form-inline">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"
+              id="searchtextbox" />
+          </form>
+
+  </div>
+  <section class="todo-outer">
+    <div class="container">
+      <div class="row1 justify-content-md-center">
+        <div class="col-sm-12 col-md-8">
+          <h1> Welcome</h1>
+          <div class="todo-inner">
+            <div class="form-row">
+              <div class="col-8 mr-sm-2">
+                <input type="text" class="form-control" placeholder="Enter your task" id="addtaskinput" />
+                <input type="hidden" id="saveindex">
+
+              </div>
+              <button type="button" class="btn btn-success mr-sm-2" id="addtaskbtn">
+                Add Task
+              </button>
+
+              <button type="button" class="btn btn-success mr-sm-2" id="savetaskbtn" style="display: none;">
+                Save Task
+              </button>
+
+              <button type="button" id="deleteallbtn" class="btn btn-danger">
+                Delete All
+              </button>
+            </div>
+            <div class="to-do-output">
+              <table class="table table-striped mt-3 mb-0" id="addedtasklist">
+
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script src="main.js"></script>
+</body>
+
+</html>

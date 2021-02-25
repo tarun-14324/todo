@@ -1,0 +1,68 @@
+
+body{
+
+	background: #68EACC;
+
+}
+h1{
+	color: black;
+	font-style: italic;
+		margin-left: 50px;
+margin-bottom: 30px;
+	font-family: sans-serif;
+}
+.navbar-brand{
+		color: #ffff;
+		font-family: sans-serif;
+			font-weight: bold;
+margin-top: 80px;
+margin-bottom: 30px;
+margin-left: -180px;
+			font-size: 40px;
+}
+#searchtextbox{
+	margin-top: -120px;
+		margin-left: 1040px;
+		width: 300px;
+}
+header .navbar{
+
+	color: #ffff;
+font-family: sans-serif;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 60px;
+	padding: .5rem 0;
+}
+header nav.navbar .navbar-brand{
+	font-family: sans-serif;
+	margin-left: 450px;
+font-weight: bold;
+font-size: 40px;
+	color: #ffffff;
+}
+section.todo-outer {
+    width: 800px;
+		height: auto;
+    float: left;
+    padding: 30px 0;
+margin-left: -15px;
+
+
+}
+
+.todo-inner {
+    width: 1500px;
+		height: auto;
+    float: left;
+    padding: 40px;
+    box-shadow: 0px 0px 10px #c1c1c1;
+    background: #fff;
+}
+table tr td button {
+    background: no-repeat;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+.completed{text-decoration: line-through;}
